@@ -362,11 +362,15 @@ Una vez desarrollado y compilado el programa en MPLAB X, el archivo generado por
 
 El circuito de simulación contiene el microcontrolador y los elementos necesarios para observar el comportamiento de la salida RD0.
 
+---
+
 ### 8.1 Carga del programa
 
 En las propiedades del PIC18F45K22 dentro de Proteus se seleccionó el archivo generado por MPLAB.
 
 De esta manera, Proteus ejecuta el programa compilado dentro del modelo virtual del microcontrolador.
+
+---
 
 ### 8.2 Circuito utilizado
 
@@ -450,36 +454,6 @@ En esta evidencia se presenta el código desarrollado en MPLAB X IDE utilizando 
 <img src="Imagenes/codigo_mplab.png" width="800">
 
 **Figura 2. Código desarrollado en MPLAB X IDE.**
-
----
-
-### 10.3 Circuito de simulación
-
-La siguiente imagen muestra el circuito utilizado para comprobar el funcionamiento del programa en Proteus.
-
-<img src="Imagenes/simulacion_proteus.png" width="800">
-
-**Figura 3. Simulación del PIC18F45K22 en Proteus.**
-
----
-
-### 10.4 LED encendido
-
-Durante la simulación, el pin RD0 adquiere un nivel lógico alto y el LED se enciende.
-
-<img src="Imagenes/led_encendido.png" width="800">
-
-**Figura 4. LED encendido durante la simulación.**
-
----
-
-### 10.5 LED apagado
-
-Después del retardo de 500 ms, RD0 pasa a nivel lógico bajo y el LED se apaga.
-
-<img src="Imagenes/led_apagado.png" width="800">
-
-**Figura 5. LED apagado durante la simulación.**
 
 ---
 
