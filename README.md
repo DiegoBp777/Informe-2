@@ -236,6 +236,8 @@ y la programación en baja tensión fue desactivada mediante:
 ```text
 LVP = OFF
 ```
+---
+
 ### 6.2 Frecuencia utilizada
 
 Se definió:
