@@ -362,13 +362,13 @@ Una vez desarrollado y compilado el programa en MPLAB X, el archivo generado por
 
 El circuito de simulación contiene el microcontrolador y los elementos necesarios para observar el comportamiento de la salida RD0.
 
-## 8.1 Carga del programa
+### 8.1 Carga del programa
 
 En las propiedades del PIC18F45K22 dentro de Proteus se seleccionó el archivo generado por MPLAB.
 
 De esta manera, Proteus ejecuta el programa compilado dentro del modelo virtual del microcontrolador.
 
-## 8.2 Circuito utilizado
+### 8.2 Circuito utilizado
 
 El pin RD0 se conecta al LED utilizado como elemento de visualización.
 
