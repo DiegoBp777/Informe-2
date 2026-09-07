@@ -248,7 +248,7 @@ Esto indica al compilador que la frecuencia de reloj utilizada por el programa e
 ```text
 1 MHz
 ```
-Esta definición es importante para que las funciones de retardo de XC8, como __delay_ms(), puedan calcular correctamente los tiempos.
+Esta definición es importante para que las funciones de retardo de XC8, como `__delay_ms()`, puedan calcular correctamente los tiempos.
 
 ---
 
