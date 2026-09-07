@@ -441,7 +441,7 @@ y una frecuencia de parpadeo aproximada de:
 
 En la siguiente evidencia se muestra la selección y configuración del microcontrolador PIC18F45K22 dentro de Proteus.
 
-<img src="Imagenes/pic18f45k22_proteus.png" width="800">
+<img src="Imagenes/proteus_1.jpeg" width="800">
 
 **Figura 1. Microcontrolador PIC18F45K22 configurado en Proteus.**
 
@@ -451,7 +451,7 @@ En la siguiente evidencia se muestra la selección y configuración del microcon
 
 En esta evidencia se presenta el código desarrollado en MPLAB X IDE utilizando el compilador XC8.
 
-<img src="Imagenes/codigo_mplab.png" width="800">
+<img src="Imagenes/codigo_mplab.jpeg" width="800">
 
 **Figura 2. Código desarrollado en MPLAB X IDE.**
 
