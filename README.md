@@ -166,6 +166,8 @@ El componente principal utilizado en la simulación es el **PIC18F45K22**.
 
 En Proteus se seleccionó el modelo correspondiente al microcontrolador y se configuró para ejecutar el programa generado desde MPLAB.
 
+---
+
 ### 5.1 Pin utilizado
 
 Para este laboratorio se utilizó el pin:
@@ -210,6 +212,8 @@ main.c
 ```
 En este archivo se incluyeron las configuraciones necesarias para el oscilador y el funcionamiento del puerto D.
 
+---
+
 ### 6.1 Configuración del oscilador
 
 Se utilizaron los siguientes bits de configuración:
@@ -243,6 +247,8 @@ Esto indica al compilador que la frecuencia de reloj utilizada por el programa e
 1 MHz
 ```
 Esta definición es importante para que las funciones de retardo de XC8, como __delay_ms(), puedan calcular correctamente los tiempos.
+
+---
 
 ## 7. Desarrollo del programa
 
@@ -278,6 +284,7 @@ void main(void) {
     return;
 }
 ```
+---
 
 ### 7.1 Inclusión de la librería
 
@@ -286,6 +293,8 @@ La primera línea del programa es:
 #include <xc.h>
 ```
 Esta librería permite utilizar las definiciones y registros específicos del microcontrolador seleccionado.
+
+---
 
 ### 7.2 Configuración del oscilador
 
@@ -296,6 +305,8 @@ OSCCON = 0b10000000;
 para configurar el funcionamiento del oscilador interno.
 
 El PIC18F45K22 dispone de un bloque de oscilador interno y el datasheet indica que la frecuencia puede seleccionarse mediante los bits de selección de frecuencia del sistema.
+
+---
 
 ### 7.3 Configuración del puerto
 
@@ -308,6 +319,8 @@ Posteriormente se configura RD0 como salida:
 TRISDbits.TRISD0 = 0;
 ```
 De esta manera, RD0 queda preparado para controlar el LED.
+
+---
 
 ### 7.4 Encendido del LED
 
@@ -323,6 +336,8 @@ __delay_ms(500);
 ```
 generando un retardo de 500 milisegundos.
 
+---
+
 ### 7.5 Apagado del LED
 
 Posteriormente se ejecuta:
@@ -336,6 +351,8 @@ Después se vuelve a realizar un retardo:
 __delay_ms(500);
 ```
 El ciclo vuelve a comenzar debido al while(1).
+
+---
 
 ## 8. Simulación en Proteus
 
@@ -365,6 +382,7 @@ La estructura básica del sistema es:
                   │
                  GND
 ```
+---
 
 ## 9. Funcionamiento del programa
 
