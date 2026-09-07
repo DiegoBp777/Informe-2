@@ -75,7 +75,7 @@ El dispositivo cuenta con diferentes puertos de entrada y salida digitales, entr
 
 En el desarrollo de este laboratorio se utiliza específicamente el **PORTD**, debido a que el pin RD0 será utilizado para controlar el LED.
 
-El datasheet indica que PORTD es un puerto bidireccional de 8 bits y que sus pines pueden configurarse individualmente como entradas o salidas mediante el registro TRISD. :contentReference[oaicite:2]{index=2}
+El datasheet indica que PORTD es un puerto bidireccional de 8 bits y que sus pines pueden configurarse individualmente como entradas o salidas mediante el registro TRISD.
 
 ---
 
