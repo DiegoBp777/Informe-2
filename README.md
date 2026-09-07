@@ -83,7 +83,7 @@ El datasheet indica que PORTD es un puerto bidireccional de 8 bits y que sus pin
 
 El PIC18F45K22 dispone de un sistema de oscilador interno que permite seleccionar diferentes frecuencias de funcionamiento.
 
-El datasheet especifica que el registro `OSCCON` controla diferentes aspectos relacionados con el reloj del dispositivo y que los bits `IRCF` permiten seleccionar la frecuencia del oscilador interno. :contentReference[oaicite:3]{index=3}
+El datasheet especifica que el registro `OSCCON` controla diferentes aspectos relacionados con el reloj del dispositivo y que los bits `IRCF` permiten seleccionar la frecuencia del oscilador interno.
 
 Para este laboratorio se utiliza una frecuencia de:
 
